@@ -1,0 +1,34 @@
+REDUX
+package: 
+redux => core library state management; centralized state/store
+redux-thunk => async data logic implementation in redux action
+redux-devtools-extension => connect from redux to devtools
+react-redux => store access
+
+// logic
+
+// Store
+S = store (store the data from different slices)
+
+// Slice
+A = action and action creators
+D = dispatch (send action to update the state)
+R = reducer (complex data breakdown and update the new state)
+
+createstore,
+
+
+REDUX TOOLKIT
+@reduxjs/toolkit
+react-redux
+
+configureStore, createSlice(auto creates dispatch/ action/ action creator),
+
+
+
+React-redux
+Provider, useDispatch, useSelector
+
+
+Advanced
+Persists/ combineStore
